@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'GalanoGrotesqueRegular';
+  src: local('GalanoGrotesqueRegular'), url('./fonts/GalanoGrotesqueRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GalanoGrotesqueMedium';
+    src: local('GalanoGrotesqueMedium'), url('./fonts/GalanoGrotesqueMedium.ttf') format('truetype');
+  }
+
+body {
+  margin: 0;
+  font-family: GalanoGrotesqueRegular;
+  font-family: GalanoGrotesqueMedium;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

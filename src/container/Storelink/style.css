@@ -1,0 +1,85 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.stLink-arr{
+    margin-top: 3vw;
+    display: flex;
+}
+.store {
+    margin-top: 3vw;
+    text-align: left;
+}
+.store-link{
+    flex: 1;
+}
+.stLink-arr p{
+    margin-right: 2vw;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    padding: 0px 0.5vw 0px 0.5vw;
+    color: #4d4d4d;
+}
+.stLink-arr img:active{
+    transform: scale(0.85); 
+    background-color: transparent;
+}
+
+.first{
+    flex: 1;
+    text-align: left;
+    padding:1vw 1vw 1vw 1vw;
+    margin: 1vw 2vw 0px 0px ;
+}
+.third{
+    flex: 1;
+    margin: 1vw 2vw 0px 0px ;
+}
+.first a p{
+    text-decoration: underline;
+    text-align: left;
+    color: #ee741f;
+}
+.first p{
+    color: #4d4d4d;
+    text-align: left;
+}
+
+.link{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 10vw;
+}
+.second h5, .third h5{
+    color: #4d4d4d;
+}
+.second1{
+    margin-bottom: 1vw ;
+    padding-bottom: 1vw;
+    padding:1vw 1vw 1vw 1vw;
+}
+.second2{
+    margin-top: 1vw;
+    padding-top: 1vw;
+    padding:1vw 1vw 1vw 1vw;
+}
+.second{
+    flex: 1;
+    text-align: left;
+    margin: 1vw 2vw 0px 0px ;
+}
+.third1{
+    padding:1vw 1vw 1vw 1vw;
+    margin-bottom: 1vw ;
+    padding-bottom: 1vw;
+    
+}
+.third2{
+    padding:1vw 1vw 1vw 1vw;
+    margin-top: 1vw;
+    padding-top: 1vw;
+}
+.first, .second1, .second2, .third1, .third2{
+    background-color: white;
+}

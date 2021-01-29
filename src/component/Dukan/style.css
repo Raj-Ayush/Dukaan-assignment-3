@@ -1,0 +1,42 @@
+
+.btngrp{
+    margin-top: 6vh;
+    width: 100%;
+    margin-left: -0.9vw;
+}
+#leftbtn{
+    width: 100%;
+    margin-top: 1vh;
+    border-radius: 0px;
+    text-align: left;
+    font-size: 1.2vw;
+    color: #ACA7A6;
+    background-color:transparent;
+    border: none;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    margin-left: 1vw;
+    display: flex;
+}
+#leftbtn img{
+    margin-top: 0.3vw;
+}
+#leftbtn div{
+    margin-left: 1vw;
+    line-height: 1.9;
+}
+.dukaan-icon{
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+}
+#leftbtn:active{
+    transform: scale(0.98); 
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+#leftbtn:focus{
+    box-shadow: none !important;
+    color: white;
+    background-color:rgb(247,247,247, 0.1)
+}
